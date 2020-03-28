@@ -13,7 +13,7 @@ class CashRegister
       discount =20
     end
   end
-  
+=end
  
   class CashRegister
 
@@ -46,4 +46,3 @@ class CashRegister
     self.total = self.total - self.last_transaction
 
   end
-=end
