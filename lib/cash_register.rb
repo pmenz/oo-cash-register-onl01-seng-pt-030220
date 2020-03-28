@@ -1,3 +1,4 @@
+=begin 
 class CashRegister
     #1. WHat are the variables?
     #2. how are you going to initialize?
@@ -7,13 +8,13 @@ class CashRegister
     attr_accessor :total ,:change, :discount, :items, :last_transaction
     #what are the variables??
     
-    def initialize()
-      @total = total
+    def initialize(discount=0)
+      @total = 0
       discount =20
     end
   end
   
-=begin  
+ 
   class CashRegister
 
   attr_accessor :items, :discount, :total, :last_transaction
